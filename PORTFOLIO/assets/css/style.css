@@ -40,6 +40,11 @@
     display: flex;
     justify-content: center;
   }
+
+  i{
+    color: #131313;
+    font-size: 2rem;
+  }
   
   /* header -------------------------------------------------*/
   header{
@@ -82,6 +87,7 @@
   }
   .hbtn:hover {
     background-color: #edbe02;
+    color: #fff;
   }
 
   /* botbar -------------------------------------------*/
@@ -104,7 +110,7 @@
   /*HR ----------------------------------------------------*/
 
   .customhr{
-    color: #204fbd;
+    color: #000000;
     border-bottom: 2px solid;
     
   }
@@ -117,8 +123,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 2px solid #2575dd;
-    background-color: #2575dd;
+    background-color: #ffffff65;
     border-radius: 50px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   }
@@ -142,6 +147,84 @@
   }
   .infodet{
     color: #131313a5;
+  }
+
+  /*Experience --------------------------------------------*/
+  .optitle{
+    color: #131313;
+  }
+  .obtn {
+    background-color: #ffdb12;
+    height: 70px;
+    width: 50%;
+    color: #131313;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 0%;
+    margin: 10px;
+  }
+  .obtn:hover,
+  .obtn:active {
+    background-color: #edbe02;
+    color: #fff;
+  }
+  .expcon, .educon,
+  .skicon, .porcon, .concon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .expimg, .eduimg,
+  .skiimg, .porimg, .conimg{
+    height: 550px;
+    width: 400px;
+    object-fit: cover;
+    margin: 10px;
+  }
+
+  /*Skills ------------------------------------------------*/
+  .stitle{
+    color: #131313;
+    font-size: large;
+    margin-bottom: 10px;
+  }
+  .progress{
+    height: 25px;
+    margin-bottom: 10px;
+  }
+
+  /*Education ---------------------------------------------*/
+  .eyear{
+    color: #1a1a1a;
+    font-size: medium;
+    font-weight: 700;
+  }
+  .ecourse{
+    color: #1a1a1a;
+    font-size: larger;
+    font-weight: 700;
+  }
+  .eschool{
+    color: #1a1a1a;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  /*Experience ---------------------------------------------*/
+  .exyear{
+    color: #1a1a1a;
+    font-size: medium;
+    font-weight: 700;
+  }
+  .exadd{
+    color: #1a1a1a;
+    font-size: larger;
+    font-weight: 700;
+  }
+  .expos{
+    color: #1a1a1a;
+    font-size: large;
+    font-weight: 600;
   }
 
   /*Next --------------------------------------------------*/
