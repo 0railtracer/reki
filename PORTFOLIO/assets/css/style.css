@@ -1,7 +1,10 @@
 /* color palette
-#131313
-#2575dd
-#e6522d
+#3E8BC6 BLUE
+#3D2318 BROWN
+#F0E0C8 BEIGE
+#FFCC2E YELLOW
+#234178 DARK BLUE
+#29C9E5 CYAN
  */
 
 :root {
@@ -10,6 +13,7 @@
   
   body {
     color: #fff;
+    background: #F0E0C8;
   }
   
   a {
@@ -28,7 +32,7 @@
   h4,
   h5,
   h6 {
-    font-family: var(--font-primary);
+    font-family: #f1f1f1;
   }
   
   #main {
@@ -49,7 +53,7 @@
   /* header -------------------------------------------------*/
   header{
     height: 70px;
-    
+    background: #3E8Bc6;
     display: flex;
     align-items: center;
   }
@@ -61,10 +65,10 @@
     max-height: 60px;
     margin-right: 6px;
   }
-  .header .logo h1 {
+  .header h1 {
     font-size: 30px;
     font-weight: 700;
-    color: #2575dd;
+    color: #F0E0C8;
     font-family: var(--font-primary);
   }
   .header .logo h1 span {
@@ -110,9 +114,65 @@
   /*HR ----------------------------------------------------*/
 
   .customhr{
-    color: #000000;
+    color: #29C9E5;
     border-bottom: 2px solid;
     
+  }
+  
+  /*ABOUT -------------*/
+  #about{
+    background: #FFCC2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popupimg{
+    height: auto;
+    width: 90%;
+    display: flex;
+    margin: auto;
+  }
+  
+  /*EXPERIENCE -------*/
+  #exp{
+    background: #F0E0C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*SKILLS -----------*/
+  #skills{
+    margin: 10px;
+    background: #FFCC2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*PORTFOLIO --------*/
+  #pf{
+    margin: 10px;
+    background: #F0E0C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*EDUCATION --------*/
+  #edu{
+    background: #3E8BC6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*CONTACT ----------*/
+  #con{
+    background: #234178;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /*info ----------------------------------------------------*/
