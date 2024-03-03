@@ -24,22 +24,34 @@
 </head>
 
 <body>
-  <header>
-    <div>
-      <h1>RACHEY_PORTFOLIO</h1>
-    </div>
+  <header class="sticky-top" data-bs-spy="scroll" data-bs-offset="50">
+    <nav>
+      <div class="container-fluid d-flex justify-content-evenly">
+        <a href="#exp" class="hbtn btn" role="button">EXPERIENCE<i class="bi bi-hourglass-split"></i></a>
+        <a href="#skills" class="hbtn btn" role="button">SKILLS<i class="bi bi-signpost-split-fill"></i></a>
+        <a href="#pf" class="hbtn btn" role="button">PORTFOLIO<i class="bi bi-journal-album"></i></a>
+        <a href="#edu" class="hbtn btn" role="button">EDUCATION<i class="bi bi-briefcase"></i></a>
+        <a href="#con" class="hbtn btn" role="button">CONTACT<i class="bi bi-envelope-at"></i></a>
+        <button class="hbtn btn">LOGIN<i class="bi bi-door-open"></i></button>
+      </div>
+    </nav>
   </header>
   
   <section id="about">
-    <div>
+    <div class="container">
       <img src="assets/img/POPUP.png" alt="" class="popupimg" />
+      <img src="assets/img/hahahh.png" alt="" class="popupimg2 shadow" />
+      <div class="aboutxt">
+        <h1>Rachey Joyce Manalo</h1>
+        <h3>UI Designer</h3>
+      </div>
+      
     </div>
   </section>
   
   <section id="exp">
-    <div>
-      <h1>experience_</h1>
-      <hr class="customhr" />
+    <div class="containertab">
+      <h1 class="titletab2">experience_</h1>
       <div>
         <h4 class="exyear">February 2024 - present</h4>
         <h1 class="exadd">Social Security Service</h1>
@@ -52,9 +64,8 @@
   </section>
   
   <section id="skills">
-    <div>
-      <h1>skills_</h1>
-      <hr class="customhr" />
+    <div class="containertab">
+      <h1 class="titletab">skills_</h1>
       <div>
         <h2 class="stitle">GRAPHIC ILLUSTRATION</h2>
         <div class="progress">
@@ -73,16 +84,46 @@
   </section>
   
   <section id="pf">
-    <div>
-      <h1>portfolio_</h1>
-      <hr class="customhr" />
+    <div class="container-fluid containertab">
+      <h1 class="d-flex justify-content-center titletab2">portfolio_</h1>
+      <div class="container-fluid d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col">
+            <div class="card shadow" style="width: 100%;">
+              <img src="assets/img/1.jpg" class="card-img-top">
+              <a href="#"><button class="btn card-btn w-100">User Interface</button></a>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card shadow" style="width: 100%;">
+              <img src="assets/img/2.jpg" class="card-img-top">
+              <a href="#"><button class="btn card-btn w-100">Graphic Design</button></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="width: 100%;">
+              <img src="assets/img/3.jpg" class="card-img-top">
+              <a href="#"><button class="btn card-btn w-100">Graphic Illustration</button></a>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow" style="width: 100%;">
+              <img src="assets/img/4.jpg" class="card-img-top">
+              <a href="#"><button class="btn card-btn w-100">User Interface</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
   
   <section id="edu">
-    <div>
-      <h1>education_</h1>
-      <hr class="customhr" />
+    <div class="containertab">
+      <h1 class="titletab">education_</h1>
       <div class="">
         <h4 class="eyear">2020-present</h1>
         <h1 class="ecourse">Bachelor of Science in Information Technology</h1>
@@ -104,9 +145,8 @@
   </section>
   
   <section id="con">
-    <div>
-      <h1>contact_</h1>
-      <hr class="customhr" />
+    <div class="containertab">
+      <h1 class="titletab">contact_</h1>
     </div>
   </section>
 
