@@ -1,10 +1,9 @@
 /* color palette
-#3E8BC6 BLUE
-#3D2318 BROWN
-#F0E0C8 BEIGE
-#FFCC2E YELLOW
-#234178 DARK BLUE
-#29C9E5 CYAN
+#494848 dark grey
+#d4d4d4 light grey
+#f4f4f4 dirty white ig
+#636363 kinda dark grey
+#909090 uhhmiddle lol
  */
 
  :root {
@@ -13,7 +12,7 @@
 
 body {
   color: #fff;
-  background: #F0E0C8;
+  background: #d4d4d4;
 }
 
 a {
@@ -46,15 +45,18 @@ h6 {
 }
 
 i{
-  color: #F0E0C8;
-  font-size: 2rem;
+  color: #d4d4d4;
+  font-size: 1.5vw;
   margin: 2px;
+}
+i:hover{
+  color: #494848;
 }
 
 /* header -------------------------------------------------*/
 header{
-  height: 90px;
-  background: #234178;
+  height: 70px;
+  background: #494848;
 }
 .header .logo{
   display: flex;
@@ -67,7 +69,7 @@ header{
 .header h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #F0E0C8;
+  color: #d4d4d4;
   font-family: var(--font-primary);
 }
 .header .logo h1 span {
@@ -80,17 +82,17 @@ header{
   font-weight: bold;
 }
 .hbtn {
-  background-color: #234178;
+  background-color: #494848;
   height: 70px;
   width: 50%;
-  color: #F0E0C8;
+  color: #d4d4d4;
   font-size: larger;
   font-weight: bold;
   border-radius: 0%;
 }
 .hbtn:hover {
-  background-color: #3E8BC6;
-  color: #234178;
+  background-color: #909090;
+  color: #494848;
 }
 
 /* botbar -------------------------------------------*/
@@ -113,7 +115,7 @@ header{
 /*HR ----------------------------------------------------*/
 
 .customhr{
-  color: #234178;
+  color: #494848;
   border-bottom: 2px solid;
   display: flex;
   width: 100%;
@@ -123,21 +125,22 @@ header{
   margin-top: 90px;
   font-size: 4vw;
   font-weight: 800;
-  color: #F0E0C8;
+  color: #d4d4d4;
 }
 .titletab2{
   margin-top: 90px;
   font-size: 4vw;
   font-weight: 800;
-  color: #3D2318;
+  color: #494848;
 }
 .containertab{
   margin-bottom: 50px;
+  height: auto;
 }
 
 /*ABOUT -------------*/
 #about{
-  background: #FFCC2E;
+  background: #f4f4f4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,9 +150,10 @@ header{
 }
 .popupimg{
   height: 700px;
-  max-width: 90%;
+  max-width: 100%;
   display: flex;
   margin: 100px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
 }
 .popupimg2{
   height: 40%;
@@ -168,12 +172,12 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  color: #3D2318;
+  color: #494848;
 }
 
 /*EXPERIENCE -------*/
 #exp{
-  background: #F0E0C8;
+  background: #d4d4d4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,7 +186,7 @@ header{
 /*SKILLS -----------*/
 #skills{
   margin: 10px;
-  background: #FFCC2E;
+  background: #909090;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -191,28 +195,32 @@ header{
 /*PORTFOLIO --------*/
 #pf{
   margin: 10px;
-  background: #F0E0C8;
+  background: #d4d4d4;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.cardi{
+  height: 300px;
+  max-width: 100%;
+}
 .card-btn {
-  background-color: #3D2318;
+  background-color: #494848;
   height: 70px;
   width: 50%;
-  color: #F0E0C8;
+  color: #d4d4d4;
   font-size: larger;
   font-weight: bold;
   border-radius: 0%;
 }
 .card-btn:hover {
-  background-color: #FFCC2E;
-  color: #3D2318;
+  background-color: #636363;
+  color: #d4d4d4;
 }
 
 /*EDUCATION --------*/
 #edu{
-  background: #3E8BC6;
+  background: #909090;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -220,7 +228,15 @@ header{
 
 /*CONTACT ----------*/
 #con{
-  background: #234178;
+  background: #494848;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*LOG IN ----------*/
+.login{
+  background: #494848;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,37 +277,7 @@ header{
 }
 
 /*Experience --------------------------------------------*/
-.optitle{
-  color: #131313;
-}
-.obtn {
-  background-color: #ffdb12;
-  height: 70px;
-  width: 50%;
-  color: #131313;
-  font-size: larger;
-  font-weight: bold;
-  border-radius: 0%;
-  margin: 10px;
-}
-.obtn:hover,
-.obtn:active {
-  background-color: #edbe02;
-  color: #fff;
-}
-.expcon, .educon,
-.skicon, .porcon, .concon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.expimg, .eduimg,
-.skiimg, .porimg, .conimg{
-  height: 550px;
-  width: 400px;
-  object-fit: cover;
-  margin: 10px;
-}
+
 
 /*Skills ------------------------------------------------*/
 .stitle{
@@ -339,18 +325,6 @@ header{
   font-weight: 600;
 }
 
-/*Next --------------------------------------------------*/
-
-.next{
-  display: flex;
-  background: #2575dd2a;
-  height: auto;
-}
-
-.next .container{
-  display: flex;
-  justify-content: center;
-}
 
 /*Content -----------------------------------------------*/
 
@@ -366,57 +340,36 @@ header{
 
 /*Login -------------------------------------------------*/
 
-.login .card{
-  background: #131313;
+.logincard, .signupcard{
+  background: #d4d4d4;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
-
-.login .input-group{
-  margin: auto;
-  margin-bottom: 4px;
-  border-color: #2575dd;
+.logincard h4, .loginlabel{
+  color: #909090
 }
-
-.login .input-group-text{
-  background: #2575dd;
-  border-color: #2575dd;
+.loginlabel{
+  font-weight: 700;
+  font-size: medium;
 }
-
-.login .form-control::placeholder{
-  color: #131313a5;
-  font-weight: 600;
+.form-control::placeholder {
+  color: #909090;
+  opacity: 1;
 }
-
-/*Signup ------------------------------------------------*/
-
-.signup .card{
-  background: #2575dd;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+.logincard i{
+  color: #494848
 }
-
-.signup .input-group{
-  margin: auto;
-  margin-bottom: 4px;
-  border-color: #131313;
+.logindesc{
+  color: #909090;
+  font-size: medium;
+  font-weight: 700;
+  margin-top: 10px;
 }
-
-.signup .input-group-text{
-  background: #131313;
-  border-color: #131313;
-  color: #ffffff;
-}
-
-.signup .form-control::placeholder{
-  color: #131313a5;
-  font-weight: 600;
+.logindesc span{
+  color: #494848
 }
 
 /*Desktop Navigation---------------------------------------*/
@@ -759,7 +712,7 @@ font-weight: 600;
 /*Buttons--------------------------------------------------*/
 
 .mainbtn{
-background: #2575dd;
+background: #636363;
 color: #fff;
 font-weight: 600;
 border-radius: 2px;
@@ -767,70 +720,46 @@ margin: 2px;
 }
 
 .mainbtn:hover{
-background: #204fbd;
+background: #909090;
 }
 
-.scroll-up{
-display: flex;
-align-items: center;
-justify-content: center;
-background: #131313;
-color: #fff;
-visibility: hidden;
-position: fixed;
-opacity: 0;
-transition: all 0.4s;
-z-index: 99999;
-right: 15px;
-bottom: 15px;
-
-font-size: 24px;
-width: 40px;
-height: 40px;
-border-radius: 20px;
+.secbtn{
+  background: #f4f4f4;
+  color: #636363;
+  font-weight: 600;
+  border-radius: 2px;
+  margin: 2px;
+}
+  
+.secbtn:hover{
+  background: #909090;
 }
 
-.scroll-up:hover {
-color: #2575dd;
+.scroll-top{
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99999;
+  background: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  transition: all 0.4s;
+}
+.scroll-top img{
+  height: 70px;
+  max-width: 70px;
 }
 
-.scroll-up.active {
+.scroll-top:hover {
+  height: 70px;
+}
+
+.scroll-top.active {
 visibility: visible;
 opacity: 1;
 }
 
-.libtn{
-background: #2575dd;
-color: #131313;
-}
 
-.libtn:hover{
-background: #204fbd;
-}
-
-.subtn{
-background: #131313;
-color: #ffffff;
-}
-
-.subtn:hover{
-background: #fff;
-color: #204fbd;
-}
-
-/*Images---------------------------------------------------*/
-.login .logo{
-height: 200px;
-width: 200px;
-}
-
-.signup .logo{
-height: 200px;
-width: 200px;
-}
-
-.sidepic{
-width: 500px;
-height: auto;
-margin: 5px;
-}
