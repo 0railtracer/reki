@@ -162,7 +162,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
 }
 .container{
   position: relative;
@@ -266,7 +266,6 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 .containertab i{
   color: #909090;

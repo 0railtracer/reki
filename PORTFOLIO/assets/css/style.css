@@ -399,6 +399,28 @@ header{
   color: #494848
 }
 
+/* Scrollbar custom ---------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #636363;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1b1b1b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #494848;
+}
+
+
 /*Desktop Navigation---------------------------------------*/
 @media (min-width: 1280px) {
 .navbar,
